@@ -1,4 +1,5 @@
 // src/App.jsx (Condensed snippet of the changes)
+import { useEdgeCaseTester } from './hooks/useEdgeCaseTester';
 export default function App() {
   const { uiData, isStressTesting, currentMode, applyEdgeCase, toggleStressTest } = useEdgeCaseTester(600);
 
